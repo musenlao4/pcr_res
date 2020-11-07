@@ -1,0 +1,35 @@
+{
+	"uin": 0,
+	"password": "",
+	"encrypt_password": false,
+	"password_encrypted": "",
+	"enable_db": false,
+	"access_token": "",
+	"relogin": {
+		"enabled": true,
+		"relogin_delay": 3,
+		"max_relogin_times": 0
+	},
+	"_rate_limit": {
+		"enabled": false,
+		"frequency": 1,
+		"bucket_size": 1
+	},
+	"post_message_format": "string",
+	"ignore_invalid_cqcode": false,
+	"force_fragmented": true,
+	"heartbeat_interval": 5,
+	"http_config": {
+		"enabled": false,
+	},
+	"ws_config": {
+		"enabled": false,
+	},
+	"ws_reverse_servers": [
+		{
+			"enabled": false,
+			"reverse_url": "ws://localhost:9222/ws/",
+			"reverse_reconnect_interval": 3000
+		}
+	]
+}
